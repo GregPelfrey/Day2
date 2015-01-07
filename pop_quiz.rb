@@ -128,7 +128,7 @@ puts question[:question]
 puts question[:answer_choices]
 user_input = gets.chomp.upcase
 	if 	user_input == question[:answer]
-		puts "CORRECT!!!!"
+		puts "Thats answer is correct!!"
 		questions_correct += 1
 	else
 		puts "Sorry wrong answer!"		
